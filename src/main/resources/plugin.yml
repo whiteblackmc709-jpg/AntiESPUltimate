@@ -4,7 +4,7 @@ main: com.example.antiespultimate.AntiESPUltimate
 api-version: '1.21.4'
 depend: [ProtocolLib]
 softdepend: [PlaceholderAPI]
-author: you
+author: trongphu
 description: Obfuscates ores/containers, hides players blocked by line-of-sight, and clamps per-player view distance.
 
 commands:
