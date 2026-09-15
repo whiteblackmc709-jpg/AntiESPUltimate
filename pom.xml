@@ -47,7 +47,7 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- FIX 3.1: soft-depend, compile-only -- không bắt buộc phải cài để
+        <!-- FIX 3.1: soft-depend, compile-only: không bắt buộc phải cài để
              plugin chạy, chỉ cần có mặt lúc build để compile expansion class. -->
         <dependency>
             <groupId>me.clip</groupId>
@@ -56,7 +56,7 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- FIX 3.2: bStats -- được shade + relocate vào trong jar, khác với
+        <!-- FIX 3.2: bStats: được shade + relocate vào trong jar, khác với
              các dependency 'provided' ở trên vốn do server cung cấp sẵn. -->
         <dependency>
             <groupId>org.bstats</groupId>
