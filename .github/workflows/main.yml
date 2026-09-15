@@ -29,5 +29,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: SmartOptimizer-jar
-          path: target/SmartOptimizer-*.jar
+          path: target/*.jar
           if-no-files-found: error
